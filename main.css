@@ -1,0 +1,8 @@
+h1, h2, h3, h4, h5 {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(255,3,3,1) 17%, rgba(3,13,129,1) 33%, rgba(2,251,3,1) 49%, rgba(214,2,253,1) 66%, rgba(247,255,0,1) 83%);
+}
