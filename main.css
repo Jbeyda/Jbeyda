@@ -1,8 +1,32 @@
-h1, h2, h3, h4, h5 {
+h1 {
   color: white;
+  font-size: 3rem;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+}
+
+h2, h3, h4, h5 {
   font-family: 'Inconsolata', monospace;
 }
 
 body {
-  background: linear-gradient(90deg, rgba(255,3,3,1) 17%, rgba(3,13,129,1) 33%, rgba(2,251,3,1) 49%, rgba(214,2,253,1) 66%, rgba(247,255,0,1) 83%);
-}
+  margin: 0px;
+  }
+
+.pageHeader {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('fantasy.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5%;
+    height: 33%;
+  }
+
+  .page-body {
+    padding: 5%;
+    color: black;
+     background: rgb(0,54,255);
+background: linear-gradient(90deg, rgba(0,54,255,0.25) 0%, rgba(255,0,0,0.25) 84%);
+  }
+
